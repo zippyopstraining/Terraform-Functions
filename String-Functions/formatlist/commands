@@ -1,0 +1,5 @@
+terraform apply -var "string_list='cat'"
+
+terraform apply -var "string_list=[]"
+
+terraform apply -var "int_list=[1,2]"
