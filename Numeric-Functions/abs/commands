@@ -1,0 +1,9 @@
+terraform apply -var 'abs=15'
+
+terraform apply -var 'abs=-15'
+
+terraform apply -var 'abs=3.15'
+
+terraform apply -var 'abs=-3.15'
+
+terraform apply
