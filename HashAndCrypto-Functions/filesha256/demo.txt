@@ -1,0 +1,1 @@
+filesha256 is a variant of sha256 that hashes the contents of a given file rather than a literal string.

@@ -1,0 +1,1 @@
+filemd5 is a variant of md5 that hashes the contents of a given file rather than a literal string.
