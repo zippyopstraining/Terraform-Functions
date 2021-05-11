@@ -1,0 +1,5 @@
+terraform apply -var 'log=5' -var 'base=10'
+
+terraform apply -var 'log=5' -var 'base=0'
+
+terraform apply

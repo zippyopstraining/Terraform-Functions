@@ -1,0 +1,16 @@
+#negative 0 is fine
+terraform apply -var "signum=-0"
+
+#returns 1
+terraform apply -var "signum=1"
+
+#returns  -1
+terraform apply -var "signum=-1"
+
+#returns 1
+terraform apply -var "signum=42"
+
+#returns -1
+terraform apply -var "signum=-42"
+
+terraform apply

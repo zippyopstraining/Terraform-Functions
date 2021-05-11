@@ -1,0 +1,9 @@
+terraform apply -var 'parseint1=FF' -var 'parseint2=16'
+
+terraform apply -var 'parseint1=-10' -var 'parseint2=16'
+
+terraform apply -var 'parseint1=1011111011101111' -var 'parseint2=2'
+
+terraform apply -var 'parseint1=aA' -var 'parseint2=62'
+
+terraform apply

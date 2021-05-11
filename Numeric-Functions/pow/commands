@@ -1,0 +1,9 @@
+terraform apply -var 'base=2' -var 'exp=3'
+
+terraform apply -var 'base=-1' -var 'exp=3'
+
+terraform apply -var 'base=3.1' -var 'exp=-2'
+
+terraform apply -var 'base=10' -var 'exp=308'
+
+terraform apply

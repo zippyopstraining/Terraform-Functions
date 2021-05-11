@@ -1,0 +1,9 @@
+terraform apply -var 'floor=5.9'
+
+terraform apply -var 'floor=-5.9'
+
+terraform apply -var 'floor=3.1'
+
+terraform apply -var 'floor=-3.1'
+
+terraform apply
